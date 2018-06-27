@@ -15,4 +15,6 @@ dependency-reduced-pom.xml
 /.idea/modules.xml
 /.idea/libraries/Maven*.xml
 /.idea/artifacts/*.xml
+/.idea/*
+.idea/
 /*.iws
