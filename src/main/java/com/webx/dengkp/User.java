@@ -15,16 +15,16 @@
  * limitations under the License.
  */
 
-package com.webx.dengkp.module.action;
+package com.webx.dengkp;
 
-import com.alibaba.citrus.turbine.Navigator;
-import com.alibaba.citrus.turbine.dataresolver.FormGroup;
-import com.webx.app1.Visitor;
-import com.webx.dengkp.User;
+public class User {
+    private String name;
 
-public class RegisterAction2 {
-    public void doRegister(@FormGroup("visitor") User visitor, Navigator nav) {
-        String name = visitor.getName();
-        nav.redirectTo("dengLink").withTarget("form/welcome2").withParameter("name", name);
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
     }
 }
