@@ -1,0 +1,2 @@
+$page.setTitle("Welcome2, $name")
+<p>Welcome register2, $name!</p>
